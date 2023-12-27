@@ -2,7 +2,7 @@
 PostgreSQL
 <ul>
 <li>CREATE DATABASE databasename; -------- to create database
-<li>\l                            -------- to view the list of all databases
+<li>\l (smallcase L)              -------- to view the list of all databases
 <li>\c databasename               -------- to connect to a database
 <li>DROP DATABASE databasename;   -------- to delete the database ****
 <li>\! cls                        -------- to clear screen in SQL shell
