@@ -9,7 +9,12 @@ PostgreSQL
 <li>\d                            -------- to view/acess table 
 <li>\d tablename                  -------- to acess the table by TableName
 <li>DROP TABLE tablename;         -------- to delete table ***
+
 </ul>
+********************************************************************
+If your password does not work, use 'postgres' for the username.  Your code should look like this " psql -h localhost -p 5432 -U postgres test"
+
+In cmd : to change the username , we can use psql -U postgres and then the given password
 
 ********************************************************************
 CREATE TABLE 
