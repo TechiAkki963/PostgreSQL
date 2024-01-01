@@ -19,7 +19,7 @@ In cmd : to change the username , we can use psql -U postgres and then the given
 ********************************************************************
 CREATE TABLE 
 ********************************************************************
-
+**Without Email as every person may not have Email
 CREATE TABLE person (
     id BIGSERIAL NOT NULL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -27,3 +27,33 @@ CREATE TABLE person (
     gender VARCHAR(7) NOT NULL,
     date_of_birth DATE NOT NULL,
 );
+
+**With Email
+CREATE TABLE person (     id BIGSERIAL NOT NULL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    gender VARCHAR(7) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    email VARCHAR(150)
+);
+
+// TO view the data table 
+SELECT * FROM person
+
+
+****************************************************************************
+INSERT DATA in TABLE
+***************************************************************************
+
+INSERT INTO person (
+first_name,
+last_name,
+gender,
+date_of_birth,
+email)
+VALUES ('Anne','Smith','FEMALE',DATE '1998-05-01');
+
+VALUES('JAKE','BROWN','MALE',DATE '1994-02-03','Jake@ymail.com');
+
+
+
