@@ -37,7 +37,7 @@ CREATE TABLE person (     id BIGSERIAL NOT NULL PRIMARY KEY,
     email VARCHAR(150)
 );
 
-// TO view the data table 
+// TO view the data table ----------
 SELECT * FROM person;
 
 
