@@ -52,6 +52,7 @@ gender,
 date_of_birth,
 email)
 VALUES ('Anne','Smith','FEMALE',DATE '1998-05-01');
+                                      yyyy-mm-dd      
 
 VALUES('JAKE','BROWN','MALE',DATE '1994-02-03','Jake@ymail.com');
 
