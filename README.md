@@ -38,7 +38,7 @@ CREATE TABLE person (     id BIGSERIAL NOT NULL PRIMARY KEY,
 );
 
 // TO view the data table 
-SELECT * FROM person
+SELECT * FROM person;
 
 
 ****************************************************************************
