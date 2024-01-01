@@ -56,4 +56,10 @@ VALUES ('Anne','Smith','FEMALE',DATE '1998-05-01');
 VALUES('JAKE','BROWN','MALE',DATE '1994-02-03','Jake@ymail.com');
 
 
+***********************************************************************
+to import SQL file 
+*******************************************************************
+\i /filepath/filename.sql
+
+
 
