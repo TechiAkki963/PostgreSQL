@@ -80,6 +80,13 @@ e.g. : SELECT * FROM person ORDER BY first_name ASC;
 for DESCENDING ORDER
 e.g. : SELECT * FROM person ORDER BY country DESC;
 
+We can SORT by id ORDER -- Serial no.
+e.g. : SELECT * FROM person ORDER BY id email;
 
 
+//******************************************************************
+TO DISPLAY DUPLICATE DATA at ONCE
 
+e.g. : SELECT DISTINCT country FROM person ORDER BY person;
+
+//*******************************************************************
