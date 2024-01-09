@@ -12,7 +12,7 @@ PostgreSQL
 
 </ul>
 ********************************************************************
-**Ubuntu : sudo -i -u postgres
+Ubuntu : sudo -i -u postgres
 
 If your password does not work, use 'postgres' for the username.  Your code should look like this " psql -h localhost -p 5432 -U postgres test"
 
