@@ -74,5 +74,12 @@ ORDER BY -- IT is used to SORT the list in ASCENDING or DESCENDING Order
 /***********************************************************************
 SELECT * FROM person ORDER BY country;
 
+for  ASCENDING ORDER
+e.g. : SELECT * FROM person ORDER BY first_name ASC;
+
+for DESCENDING ORDER
+e.g. : SELECT * FROM person ORDER BY country DESC;
+
+
 
 
