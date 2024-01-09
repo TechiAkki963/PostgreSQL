@@ -69,9 +69,9 @@ to import SQL file
 \i /filepath/filename.sql
 
 
-/**********************************************************************
+**********************************************************************
 ORDER BY -- IT is used to SORT the list in ASCENDING or DESCENDING Order
-/***********************************************************************
+***********************************************************************
 SELECT * FROM person ORDER BY country;
 
 for  ASCENDING ORDER
@@ -84,9 +84,20 @@ We can SORT by id ORDER -- Serial no.
 e.g. : SELECT * FROM person ORDER BY id email;
 
 
-//******************************************************************
+******************************************************************
 TO DISPLAY DUPLICATE DATA at ONCE
 
 e.g. : SELECT DISTINCT country FROM person ORDER BY person;
 
-//*******************************************************************
+*******************************************************************
+
+WHERE , AND 
+
+e.g. : SELECT * FROM person WHERE gender = 'Male';
+
+e.g. : SELECT * FROM person WHERE gender = 'Female' AND country = 'Poland';
+
+e.g : SELECT * FROM person WHERE gender = 'Female' AND (country = 'Poland' OR country = 'China');
+
+e.g : SELECT * FROM person WHERE gender = 'Female' AND (country = 'Poland' OR country = 'China') AND last_name = 'Downs';
+
