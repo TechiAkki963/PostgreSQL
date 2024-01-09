@@ -69,4 +69,10 @@ to import SQL file
 \i /filepath/filename.sql
 
 
+/**********************************************************************
+ORDER BY -- IT is used to SORT the list in ASCENDING or DESCENDING Order
+/***********************************************************************
+SELECT * FROM person ORDER BY country;
+
+
 
