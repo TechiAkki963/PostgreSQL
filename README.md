@@ -170,17 +170,17 @@ SELECT \* FROM person ORDER BY country;
 
 ```
 for ASCENDING ORDER
-e.g. : SELECT \* FROM person ORDER BY first_name ASC;
+SELECT \* FROM person ORDER BY first_name ASC;
 ```
 
 ```
 for DESCENDING ORDER
-e.g. : SELECT \* FROM person ORDER BY country DESC;
+SELECT \* FROM person ORDER BY country DESC;
 ```
 
 ```
 We can SORT by id ORDER -- Serial no.
-e.g. : SELECT \* FROM person ORDER BY id email;
+SELECT \* FROM person ORDER BY id email;
 ```
 
 ---
@@ -188,7 +188,7 @@ e.g. : SELECT \* FROM person ORDER BY id email;
 > TO DISPLAY DUPLICATE DATA at ONCE
 
 ```
-e.g. : SELECT DISTINCT country FROM person ORDER BY person;
+SELECT DISTINCT country FROM person ORDER BY person;
 ```
 
 ---
@@ -196,17 +196,17 @@ e.g. : SELECT DISTINCT country FROM person ORDER BY person;
 > WHERE , AND
 
 ```
-e.g. : SELECT \* FROM person WHERE gender = 'Male';
+SELECT \* FROM person WHERE gender = 'Male';
 ```
 
 ```
-e.g. : SELECT \* FROM person WHERE gender = 'Female' AND country = 'Poland';
+SELECT \* FROM person WHERE gender = 'Female' AND country = 'Poland';
 ```
 
 ```
-e.g : SELECT \* FROM person WHERE gender = 'Female' AND (country = 'Poland' OR country = 'China');
+SELECT \* FROM person WHERE gender = 'Female' AND (country = 'Poland' OR country = 'China');
 ```
 
 ```
-e.g : SELECT \* FROM person WHERE gender = 'Female' AND (country = 'Poland' OR country = 'China') AND last_name = 'Downs';
+SELECT \* FROM person WHERE gender = 'Female' AND (country = 'Poland' OR country = 'China') AND last_name = 'Downs';
 ```
