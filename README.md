@@ -6,7 +6,7 @@
 
 > to create database
 
-```
+```postgres
 CREATE DATABASE databasename;
 ```
 
